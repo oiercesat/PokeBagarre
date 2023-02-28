@@ -10,7 +10,6 @@ public class Pokemon {
     this.urlImage = urlImage;
     this.stats = stats;
   }
-
   public String getNom() {
     return nom;
   }
