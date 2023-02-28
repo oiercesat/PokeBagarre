@@ -30,6 +30,6 @@ jobs:
           arguments: build
       - uses: dorny/test-reporter@v1
         with :
-          name : resultat_des_test
+          name : resultat_des_test.xml
           path: '*.xml'
           reporter: jest-junit
